@@ -1,30 +1,45 @@
-#https://thesamuelsoncondition.com/2016/01/29/r-studio-git-github-and-osx/
+#---------------
+# R and GitHub
+#---------------
 
-#$git clone https://github.com/perkot/cars
-      #Cloning into 'cars'...
-      #remote: Counting objects: 10, done.
-      #remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 10
-      #Unpacking objects: 100% (10/10), done.
-      #Checking connectivity... done
+# Create a repository on github.com (i.e. "cars")
 
-#$cd cars
+# Clone this repository into local R environment 
 
-#$git push
-      #warning: push.default is unset; its implicit value is changing in
-      #Git 2.0 from 'matching' to 'simple'. To squelch this message
-      #and maintain the current behavior after the default changes, use:
-  
-  #git config --global push.default matching
+        # On GitHub, navigate to the Code tab of the repository.
+        # On the right side of the screen, click Clone or download.
+        # Click the Copy to clipboard icon to the right of the repository URL.
+        # Open RStudio on your local environment.
+        # Click File, New Project, Version Control, Git.
+        # Paste the repository URL and enter TAB to move to the Project directory name field.
+        # Click Create Project.
 
-#To squelch this message and adopt the new behavior now, use:
-  
-  #git config --global push.default simple
+# Now in R, create files... scripts, markdowns etc
+# Commit this file, staged 
+# Attempt to push to www.github.com WILL NOT WORK on a mac
+# Need to complete below steps in terminal
 
-#See 'git help config' and search for 'push.default' for further information.
-#(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-  #'current' instead of 'simple' if you sometimes use older versions of Git)
+#---------------
+# Terminal Steps 
+#---------------
 
-#Username for 'https://github.com':
-#Password for 'https://perkot@github.com': 
-  
-  #Everything up-to-date
+# https://thesamuelsoncondition.com/2016/01/29/r-studio-git-github-and-osx/
+
+# $git clone https://github.com/perkot/cars
+
+        #Cloning into 'cars'...
+        #remote: Enumerating objects: 4, done.
+        #remote: Counting objects: 100% (4/4), done.
+        #remote: Compressing objects: 100% (3/3), done.
+        #remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+        #Unpacking objects: 100% (4/4), done.
+
+# $cd cars
+
+# $git push
+
+# Username for 'https://github.com': perkot
+# Password for 'https://perkot@github.com':
+
+        # Everything up-to-date
+
