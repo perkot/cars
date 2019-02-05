@@ -43,3 +43,14 @@
 
         # Everything up-to-date
 
+#---------------
+# Create Branches
+#---------------
+
+# In RStudio click the Terminal tab in the lower left pane. 
+# The Terminal tab is next to the Console tab. 
+
+# git branch speed-and-distance-report
+# git status
+# git checkout speed-and-distance-report
+# git status
