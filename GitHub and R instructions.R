@@ -54,3 +54,27 @@
 # git status
 # git checkout speed-and-distance-report
 # git status
+
+
+#---------------
+# add HTML file
+#---------------
+
+# Knit file
+
+# Terminal
+# git status
+# git add .
+# git status (you should now see new index.html file)
+
+# Commit this change
+
+# git commit -m "<COMMIT-MESSAGE>"
+
+# Check history
+
+# git log --oneline
+
+# See changes between master and current
+
+# git diff --stat --summary master.. speed-and-distance-report
